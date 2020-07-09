@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #020202;
+    color: white;
+}
+
+/* .container{
+    display: flex;
+    justify-content: space-between;
+    
+} */
+
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.container .logo, .container h1{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    color: red;
+
+}
+.logo h1, .logo a{
+    font-size: 1em;
+    margin-top: 3%;
+}
+.heading{
+    margin: 3%;
+}
+
+
+.container h1{
+    margin-left: 8px;
+}
+
+.container .covid{
+    color: #fff;
+    font-size: 1.4em;
+}
+.container nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 8px;
+    margin-bottom: 50px;
+    align-self: center;
+}
+.container nav a {
+    color: rgb(201, 80, 80);
+    font-size: 1.2em;
+}
+
+.container .firsttwo, .container .secondtwo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    
+}
+
+
+
+.container .totalcases, .container .deaths, .container .critical, .container .recovered{
+    display: block;
+    height: 2em;
+    box-sizing: border-box;
+    
+
+
+}
+.container .firsttwo p, .container .secondtwo p{
+    font-size: 1.2em;
+}
+
+.container .firsttwo input, .container .secondtwo input{
+    font-size: 0.9em;
+}
+
+.container .deaths input{
+    background: red;
+    border: 3px solid red;
+    color: white;
+}
+.container .recovered input{
+    background: green;
+    border: 3px solid green;
+    color: white;
+}
+
+.container .totalcases input{
+    background: white;
+    border: 3px solid rgb(238, 232, 232);
+    color: black;
+}
+
+.container .critical input{
+    background: rgb(66, 131, 66);
+    border: 3px solid rgb(86, 158, 86);
+    color: white;
+}
+
+.container .thirdtwo{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+    
+}
+.container .newDeaths, .container .newConfirmed{
+    display: block;
+    font-size: 1.2em;
+}
+.container .newDeaths  input{
+    background: rgb(201, 23, 23);
+    border: 3px solid rgb(201, 26, 26);
+    color: white;
+}
+
+.container .newDeaths input, .container .newConfirmed input{
+    font-size: 1.0em;
+}
+
+.container .global{
+    color: green;
+    margin-bottom: 12px;
+    margin-top: 4px;
+}
+
+.container .country option{
+    margin-bottom: 8px;
+}
+
+
+
+
+
+
+/* .container .critical, .container .criticals{
+    display: none;
+} */
+
+.container .deaths {
+    margin-left: 80px;
+}
+
+.container .recovered{
+    margin-left: 90px;
+}
+
+.container .locality{
+    text-transform: uppercase;
+    font-size: 1.1em;
+    
+
+}
+.container .time{
+    text-transform: uppercase;
+    font-size: 1em;
+    margin-bottom: 20px;
+    
+}
+
+/* .container .timezone{
+    justify-content: space-between;
+    margin-bottom: 0px;
+} */
+
+.container .country{
+   margin-bottom: 15px;
+    
+}
+
+
+.container footer{
+    margin-top: 36%;
+    text-transform: capitalize;
+    text-align: center;
+    
+
+}
+
+.container .hide{
+    visibility: hidden;
+}
+
+.container footer .loyalty{
+    text-transform: lowercase;
+    font-size: 1.1em;
+}
+
+
